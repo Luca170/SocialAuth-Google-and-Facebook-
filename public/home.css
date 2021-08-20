@@ -1,0 +1,32 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+a {
+    color:white !important;
+    text-decoration: none !important;
+    text-align: center;
+    font-size:1.5rem;
+    padding:15px;
+    margin:30px;
+    font-weight:bold;
+    border-radius:10px;
+}
+#facebook {
+    background-color:rgba(0, 0, 255, 0.829);
+}
+i {
+    padding:10px;
+}
+#facebook:hover {
+    background-color: blue;
+}
+#google {
+    background-color:rgba(255, 0, 0, 0.87)
+}
+#google:hover {
+    background-color:red
+}

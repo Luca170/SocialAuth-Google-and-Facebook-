@@ -1,0 +1,20 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    font-size:3.5rem;
+}
+a {
+    color:white !important;
+    text-decoration:none !important;
+    background-color:rgba(0, 0, 0, 0.808);
+    font-size:2rem;
+    padding:15px;
+}
+a:hover {
+    background-color: black;
+}
